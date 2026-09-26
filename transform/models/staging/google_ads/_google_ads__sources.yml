@@ -1,0 +1,44 @@
+version: 2
+
+sources:
+  - name: google_ads
+    description: Raw tables written by the gads-pipeline extractor, one row per API row.
+    schema: "{{ var('google_ads_raw_schema') }}"
+    config:
+      loaded_at_field: _loaded_at
+      # The extractor runs daily; warn after one missed run, fail after two.
+      freshness:
+        warn_after: {count: 26, period: hour}
+        error_after: {count: 50, period: hour}
+
+    tables:
+      - name: account_daily
+        description: Account totals per day (GAQL FROM customer).
+        columns:
+          - name: customer_id
+            data_tests: [not_null]
+          - name: date
+            data_tests: [not_null]
+
+      - name: campaign_daily
+        description: Campaign performance per day, removed campaigns included.
+        columns:
+          - name: campaign_id
+            data_tests: [not_null]
+          - name: date
+            data_tests: [not_null]
+
+      - name: ad_group_daily
+        description: Ad group performance per day. Performance Max has no ad groups.
+        columns:
+          - name: ad_group_id
+            data_tests: [not_null]
+
+      - name: campaign_budget_snapshot
+        description: Budget of every campaign, captured on each run.
+        config:
+          # Snapshots are filed under their capture date, so this also proves today's ran.
+          loaded_at_field: _loaded_at
+        columns:
+          - name: budget_id
+            data_tests: [not_null]

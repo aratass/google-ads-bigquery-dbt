@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: int_google_ads__budget_daily
+    description: >
+      One row per budget per calendar day, with the budget in force that day (as of the
+      latest snapshot) and the spend of every campaign attached to it.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [customer_id, budget_id, date_day]
+    columns:
+      - name: budget_id
+        data_tests: [not_null]
+      - name: date_day
+        data_tests: [not_null]
+      - name: spend
+        data_tests: [not_null]
+
+unit_tests:
+  - name: budget_in_force_follows_the_latest_snapshot
+    description: >
+      Budget 7 is raised from 100 to 150 in the snapshot of the 7th, and campaign 12 moves
+      from budget 8 to budget 7 in the same snapshot. From the 7th on, the new amount and
+      the new budget apply. The 4th is before the first snapshot (the 5th), so it falls
+      back to the earliest snapshot: 100 for budget 7, and campaign 12's spend stays on
+      budget 8. Days without delivery (the 5th and 6th) still get a row.
+    model: int_google_ads__budget_daily
+    given:
+      - input: ref('stg_google_ads__campaign_daily')
+        rows:
+          - {customer_id: 1, campaign_id: 11, date_day: 2026-09-04, cost: 90}
+          - {customer_id: 1, campaign_id: 12, date_day: 2026-09-04, cost: 20}
+          - {customer_id: 1, campaign_id: 11, date_day: 2026-09-07, cost: 140}
+          - {customer_id: 1, campaign_id: 12, date_day: 2026-09-07, cost: 5}
+      - input: ref('stg_google_ads__campaign_budget_snapshots')
+        rows:
+          - {customer_id: 1, campaign_id: 11, snapshot_date: 2026-09-05, budget_id: 7, budget_name: shared, budget_period: DAILY, budget_amount: 100, budget_is_shared: true}
+          - {customer_id: 1, campaign_id: 12, snapshot_date: 2026-09-05, budget_id: 8, budget_name: solo, budget_period: DAILY, budget_amount: 30, budget_is_shared: false}
+          - {customer_id: 1, campaign_id: 11, snapshot_date: 2026-09-07, budget_id: 7, budget_name: shared, budget_period: DAILY, budget_amount: 150, budget_is_shared: true}
+          - {customer_id: 1, campaign_id: 12, snapshot_date: 2026-09-07, budget_id: 7, budget_name: shared, budget_period: DAILY, budget_amount: 150, budget_is_shared: true}
+      - input: ref('stg_google_ads__account_daily')
+        rows:
+          - {customer_id: 1, date_day: 2026-09-04}
+          - {customer_id: 1, date_day: 2026-09-07}
+    expect:
+      rows:
+        - {budget_id: 7, date_day: 2026-09-04, daily_budget: 100, budget_snapshot_date: 2026-09-05, spend: 90, campaigns_with_delivery: 1}
+        - {budget_id: 7, date_day: 2026-09-05, daily_budget: 100, budget_snapshot_date: 2026-09-05, spend: 0, campaigns_with_delivery: 0}
+        - {budget_id: 7, date_day: 2026-09-06, daily_budget: 100, budget_snapshot_date: 2026-09-05, spend: 0, campaigns_with_delivery: 0}
+        - {budget_id: 7, date_day: 2026-09-07, daily_budget: 150, budget_snapshot_date: 2026-09-07, spend: 145, campaigns_with_delivery: 2}
+        - {budget_id: 8, date_day: 2026-09-04, daily_budget: 30, budget_snapshot_date: 2026-09-05, spend: 20, campaigns_with_delivery: 1}
+        - {budget_id: 8, date_day: 2026-09-05, daily_budget: 30, budget_snapshot_date: 2026-09-05, spend: 0, campaigns_with_delivery: 0}
+        - {budget_id: 8, date_day: 2026-09-06, daily_budget: 30, budget_snapshot_date: 2026-09-05, spend: 0, campaigns_with_delivery: 0}
+        - {budget_id: 8, date_day: 2026-09-07, daily_budget: 30, budget_snapshot_date: 2026-09-05, spend: 0, campaigns_with_delivery: 0}

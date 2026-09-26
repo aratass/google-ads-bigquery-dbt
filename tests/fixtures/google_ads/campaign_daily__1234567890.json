@@ -1,0 +1,1106 @@
+[
+ {
+  "fieldMask": "segments.date,customer.id,campaign.id,campaign.name,campaign.status,campaign.advertisingChannelType,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.conversionsValue",
+  "requestId": "demo-request-1-0",
+  "results": [
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "75",
+     "conversions": 9.03,
+     "conversionsValue": 738.2,
+     "costMicros": "37070000",
+     "impressions": "1112"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111112",
+     "name": "Brand | Search | Legacy",
+     "status": "REMOVED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "23",
+     "conversions": 1.74,
+     "conversionsValue": 140.56,
+     "costMicros": "13220000",
+     "impressions": "524"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "79",
+     "conversions": 2.7,
+     "conversionsValue": 595.65,
+     "costMicros": "136940000",
+     "impressions": "1486"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "239",
+     "conversions": 10.46,
+     "conversionsValue": 1531.54,
+     "costMicros": "240350000",
+     "impressions": "3184"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "DISPLAY",
+     "id": "20111111115",
+     "name": "Display | Remarketing",
+     "status": "PAUSED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "107",
+     "conversions": 1.98,
+     "conversionsValue": 237.89,
+     "costMicros": "40310000",
+     "impressions": "1832"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "67",
+     "conversions": 9.46,
+     "conversionsValue": 757.44,
+     "costMicros": "38000000",
+     "impressions": "994"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111112",
+     "name": "Brand | Search | Legacy",
+     "status": "REMOVED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "24",
+     "conversions": 2.33,
+     "conversionsValue": 179.08,
+     "costMicros": "13450000",
+     "impressions": "278"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "66",
+     "conversions": 2.72,
+     "conversionsValue": 610.12,
+     "costMicros": "132010000",
+     "impressions": "1744"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "305",
+     "conversions": 13.59,
+     "conversionsValue": 2237.93,
+     "costMicros": "273810000",
+     "impressions": "7590"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "DISPLAY",
+     "id": "20111111115",
+     "name": "Display | Remarketing",
+     "status": "PAUSED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "93",
+     "conversions": 2.16,
+     "conversionsValue": 246.29,
+     "costMicros": "37500000",
+     "impressions": "1834"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "56",
+     "conversions": 7.29,
+     "conversionsValue": 658.55,
+     "costMicros": "29730000",
+     "impressions": "831"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111112",
+     "name": "Brand | Search | Legacy",
+     "status": "REMOVED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "23",
+     "conversions": 2.51,
+     "conversionsValue": 218.12,
+     "costMicros": "13030000",
+     "impressions": "572"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "71",
+     "conversions": 2.71,
+     "conversionsValue": 566.14,
+     "costMicros": "127430000",
+     "impressions": "1107"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "262",
+     "conversions": 10.0,
+     "conversionsValue": 1717.8,
+     "costMicros": "265000000",
+     "impressions": "4416"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "DISPLAY",
+     "id": "20111111115",
+     "name": "Display | Remarketing",
+     "status": "PAUSED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "77",
+     "conversions": 1.57,
+     "conversionsValue": 173.78,
+     "costMicros": "32940000",
+     "impressions": "1765"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "68",
+     "conversions": 8.58,
+     "conversionsValue": 695.54,
+     "costMicros": "34220000",
+     "impressions": "1455"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "76",
+     "conversions": 2.69,
+     "conversionsValue": 552.09,
+     "costMicros": "140260000",
+     "impressions": "3516"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "274",
+     "conversions": 8.79,
+     "conversionsValue": 1337.76,
+     "costMicros": "253060000",
+     "impressions": "3362"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "DISPLAY",
+     "id": "20111111115",
+     "name": "Display | Remarketing",
+     "status": "PAUSED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "95",
+     "conversions": 1.45,
+     "conversionsValue": 181.29,
+     "costMicros": "37970000",
+     "impressions": "3036"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "73",
+     "conversions": 7.3,
+     "conversionsValue": 584.53,
+     "costMicros": "36750000",
+     "impressions": "1045"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "67",
+     "conversions": 2.06,
+     "conversionsValue": 474.42,
+     "costMicros": "137160000",
+     "impressions": "1038"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "243",
+     "conversions": 10.77,
+     "conversionsValue": 1712.58,
+     "costMicros": "211540000",
+     "impressions": "2899"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "DISPLAY",
+     "id": "20111111115",
+     "name": "Display | Remarketing",
+     "status": "PAUSED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "83",
+     "conversions": 1.32,
+     "conversionsValue": 161.01,
+     "costMicros": "36090000",
+     "impressions": "965"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "49",
+     "conversions": 7.13,
+     "conversionsValue": 608.96,
+     "costMicros": "29740000",
+     "impressions": "1939"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "76",
+     "conversions": 2.97,
+     "conversionsValue": 579.97,
+     "costMicros": "128090000",
+     "impressions": "895"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "287",
+     "conversions": 10.95,
+     "conversionsValue": 1807.1,
+     "costMicros": "260160000",
+     "impressions": "4657"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "DISPLAY",
+     "id": "20111111115",
+     "name": "Display | Remarketing",
+     "status": "PAUSED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "78",
+     "conversions": 1.12,
+     "conversionsValue": 135.37,
+     "costMicros": "35420000",
+     "impressions": "994"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "57",
+     "conversions": 6.18,
+     "conversionsValue": 536.56,
+     "costMicros": "33050000",
+     "impressions": "1395"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "63",
+     "conversions": 2.29,
+     "conversionsValue": 504.07,
+     "costMicros": "123850000",
+     "impressions": "2534"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "272",
+     "conversions": 13.24,
+     "conversionsValue": 1980.41,
+     "costMicros": "255730000",
+     "impressions": "3358"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "DISPLAY",
+     "id": "20111111115",
+     "name": "Display | Remarketing",
+     "status": "PAUSED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "87",
+     "conversions": 1.84,
+     "conversionsValue": 232.18,
+     "costMicros": "36760000",
+     "impressions": "2293"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "68",
+     "conversions": 7.07,
+     "conversionsValue": 629.25,
+     "costMicros": "36590000",
+     "impressions": "821"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "75",
+     "conversions": 2.43,
+     "conversionsValue": 476.56,
+     "costMicros": "143730000",
+     "impressions": "1072"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "229",
+     "conversions": 11.53,
+     "conversionsValue": 1924.07,
+     "costMicros": "217190000",
+     "impressions": "4384"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "67",
+     "conversions": 7.29,
+     "conversionsValue": 577.52,
+     "costMicros": "36110000",
+     "impressions": "2709"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "76",
+     "conversions": 2.75,
+     "conversionsValue": 532.09,
+     "costMicros": "147270000",
+     "impressions": "1820"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "228",
+     "conversions": 11.91,
+     "conversionsValue": 1908.13,
+     "costMicros": "234560000",
+     "impressions": "3629"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "67",
+     "conversions": 9.61,
+     "conversionsValue": 790.92,
+     "costMicros": "34100000",
+     "impressions": "757"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "63",
+     "conversions": 2.32,
+     "conversionsValue": 487.62,
+     "costMicros": "126890000",
+     "impressions": "2278"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "289",
+     "conversions": 8.76,
+     "conversionsValue": 1400.35,
+     "costMicros": "279190000",
+     "impressions": "4404"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   }
+  ]
+ },
+ {
+  "fieldMask": "segments.date,customer.id,campaign.id,campaign.name,campaign.status,campaign.advertisingChannelType,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.conversionsValue",
+  "requestId": "demo-request-1-1",
+  "results": [
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "51",
+     "conversions": 7.42,
+     "conversionsValue": 623.98,
+     "costMicros": "29300000",
+     "impressions": "593"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "81",
+     "conversions": 1.93,
+     "conversionsValue": 441.93,
+     "costMicros": "152370000",
+     "impressions": "1633"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "234",
+     "conversions": 9.52,
+     "conversionsValue": 1508.46,
+     "costMicros": "227630000",
+     "impressions": "2818"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "68",
+     "conversions": 7.37,
+     "conversionsValue": 633.1,
+     "costMicros": "35870000",
+     "impressions": "1072"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "68",
+     "conversions": 1.77,
+     "conversionsValue": 374.3,
+     "costMicros": "129410000",
+     "impressions": "931"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "272",
+     "conversions": 13.47,
+     "conversionsValue": 2334.19,
+     "costMicros": "270750000",
+     "impressions": "5394"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "49",
+     "conversions": 5.49,
+     "conversionsValue": 477.47,
+     "costMicros": "29260000",
+     "impressions": "588"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "85",
+     "conversions": 2.23,
+     "conversionsValue": 457.74,
+     "costMicros": "149620000",
+     "impressions": "1221"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "242",
+     "conversions": 7.73,
+     "conversionsValue": 1311.77,
+     "costMicros": "246650000",
+     "impressions": "4007"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111111",
+     "name": "Brand | Search",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "71",
+     "conversions": 11.06,
+     "conversionsValue": 846.74,
+     "costMicros": "38590000",
+     "impressions": "1160"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "SEARCH",
+     "id": "20111111113",
+     "name": "Generic | Search | Tents",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "88",
+     "conversions": 2.53,
+     "conversionsValue": 513.59,
+     "costMicros": "156220000",
+     "impressions": "1934"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   },
+   {
+    "campaign": {
+     "advertisingChannelType": "PERFORMANCE_MAX",
+     "id": "20111111114",
+     "name": "PMax | All products",
+     "status": "ENABLED"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "298",
+     "conversions": 13.41,
+     "conversionsValue": 2062.28,
+     "costMicros": "265950000",
+     "impressions": "3723"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   }
+  ]
+ }
+]

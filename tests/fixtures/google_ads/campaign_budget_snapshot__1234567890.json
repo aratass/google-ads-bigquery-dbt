@@ -1,0 +1,88 @@
+[
+ {
+  "fieldMask": "customer.id,campaign.id,campaign.status,campaignBudget.id,campaignBudget.name,campaignBudget.period,campaignBudget.amountMicros,campaignBudget.explicitlyShared",
+  "requestId": "demo-request-3-0",
+  "results": [
+   {
+    "campaign": {
+     "id": "20111111111",
+     "status": "ENABLED"
+    },
+    "campaignBudget": {
+     "amountMicros": "60000000",
+     "explicitlyShared": true,
+     "id": "30001",
+     "name": "Brand search (shared)",
+     "period": "DAILY"
+    },
+    "customer": {
+     "id": "1234567890"
+    }
+   },
+   {
+    "campaign": {
+     "id": "20111111112",
+     "status": "REMOVED"
+    },
+    "campaignBudget": {
+     "amountMicros": "60000000",
+     "explicitlyShared": true,
+     "id": "30001",
+     "name": "Brand search (shared)",
+     "period": "DAILY"
+    },
+    "customer": {
+     "id": "1234567890"
+    }
+   },
+   {
+    "campaign": {
+     "id": "20111111113",
+     "status": "ENABLED"
+    },
+    "campaignBudget": {
+     "amountMicros": "150000000",
+     "explicitlyShared": false,
+     "id": "30002",
+     "name": "Generic tents",
+     "period": "DAILY"
+    },
+    "customer": {
+     "id": "1234567890"
+    }
+   },
+   {
+    "campaign": {
+     "id": "20111111114",
+     "status": "ENABLED"
+    },
+    "campaignBudget": {
+     "amountMicros": "220000000",
+     "explicitlyShared": false,
+     "id": "30003",
+     "name": "PMax all products",
+     "period": "DAILY"
+    },
+    "customer": {
+     "id": "1234567890"
+    }
+   },
+   {
+    "campaign": {
+     "id": "20111111115",
+     "status": "PAUSED"
+    },
+    "campaignBudget": {
+     "amountMicros": "40000000",
+     "explicitlyShared": false,
+     "id": "30004",
+     "name": "Display remarketing",
+     "period": "DAILY"
+    },
+    "customer": {
+     "id": "1234567890"
+    }
+   }
+  ]
+ }
+]

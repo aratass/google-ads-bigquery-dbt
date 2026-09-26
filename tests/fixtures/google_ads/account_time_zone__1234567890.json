@@ -1,0 +1,14 @@
+[
+ {
+  "fieldMask": "customer.id,customer.timeZone",
+  "requestId": "demo-request-4-0",
+  "results": [
+   {
+    "customer": {
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,1598 @@
+[
+ {
+  "fieldMask": "segments.date,customer.id,campaign.id,adGroup.id,adGroup.name,adGroup.status,adGroup.type,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.conversionsValue",
+  "requestId": "demo-request-2-0",
+  "results": [
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "35",
+     "conversions": 4.14,
+     "conversionsValue": 338.13,
+     "costMicros": "16980000",
+     "impressions": "510"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "40",
+     "conversions": 4.89,
+     "conversionsValue": 400.07,
+     "costMicros": "20090000",
+     "impressions": "602"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111103",
+     "name": "Brand legacy",
+     "status": "REMOVED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111112"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "23",
+     "conversions": 1.74,
+     "conversionsValue": 140.56,
+     "costMicros": "13220000",
+     "impressions": "524"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "22",
+     "conversions": 0.72,
+     "conversionsValue": 158.5,
+     "costMicros": "36440000",
+     "impressions": "396"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "57",
+     "conversions": 1.98,
+     "conversionsValue": 437.15,
+     "costMicros": "100500000",
+     "impressions": "1090"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111106",
+     "name": "Remarketing - 30 day visitors",
+     "status": "ENABLED",
+     "type": "DISPLAY_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111115"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "107",
+     "conversions": 1.98,
+     "conversionsValue": 237.89,
+     "costMicros": "40310000",
+     "impressions": "1832"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "19",
+     "conversions": 2.67,
+     "conversionsValue": 213.48,
+     "costMicros": "10710000",
+     "impressions": "281"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "48",
+     "conversions": 6.79,
+     "conversionsValue": 543.96,
+     "costMicros": "27290000",
+     "impressions": "713"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111103",
+     "name": "Brand legacy",
+     "status": "REMOVED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111112"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "24",
+     "conversions": 2.33,
+     "conversionsValue": 179.08,
+     "costMicros": "13450000",
+     "impressions": "278"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "37",
+     "conversions": 1.49,
+     "conversionsValue": 335.08,
+     "costMicros": "72500000",
+     "impressions": "958"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "29",
+     "conversions": 1.23,
+     "conversionsValue": 275.04,
+     "costMicros": "59510000",
+     "impressions": "786"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111106",
+     "name": "Remarketing - 30 day visitors",
+     "status": "ENABLED",
+     "type": "DISPLAY_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111115"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "93",
+     "conversions": 2.16,
+     "conversionsValue": 246.29,
+     "costMicros": "37500000",
+     "impressions": "1834"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "31",
+     "conversions": 3.92,
+     "conversionsValue": 353.97,
+     "costMicros": "15980000",
+     "impressions": "447"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "25",
+     "conversions": 3.37,
+     "conversionsValue": 304.58,
+     "costMicros": "13750000",
+     "impressions": "384"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111103",
+     "name": "Brand legacy",
+     "status": "REMOVED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111112"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "23",
+     "conversions": 2.51,
+     "conversionsValue": 218.12,
+     "costMicros": "13030000",
+     "impressions": "572"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "34",
+     "conversions": 1.29,
+     "conversionsValue": 269.59,
+     "costMicros": "60680000",
+     "impressions": "528"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "37",
+     "conversions": 1.42,
+     "conversionsValue": 296.55,
+     "costMicros": "66750000",
+     "impressions": "579"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111106",
+     "name": "Remarketing - 30 day visitors",
+     "status": "ENABLED",
+     "type": "DISPLAY_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111115"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "77",
+     "conversions": 1.57,
+     "conversionsValue": 173.78,
+     "costMicros": "32940000",
+     "impressions": "1765"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "47",
+     "conversions": 5.91,
+     "conversionsValue": 479.48,
+     "costMicros": "23590000",
+     "impressions": "1003"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "21",
+     "conversions": 2.67,
+     "conversionsValue": 216.06,
+     "costMicros": "10630000",
+     "impressions": "452"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "42",
+     "conversions": 1.45,
+     "conversionsValue": 298.44,
+     "costMicros": "75820000",
+     "impressions": "1901"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "34",
+     "conversions": 1.24,
+     "conversionsValue": 253.65,
+     "costMicros": "64440000",
+     "impressions": "1615"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111106",
+     "name": "Remarketing - 30 day visitors",
+     "status": "ENABLED",
+     "type": "DISPLAY_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111115"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "95",
+     "conversions": 1.45,
+     "conversionsValue": 181.29,
+     "costMicros": "37970000",
+     "impressions": "3036"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "40",
+     "conversions": 3.94,
+     "conversionsValue": 315.88,
+     "costMicros": "19860000",
+     "impressions": "565"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "33",
+     "conversions": 3.36,
+     "conversionsValue": 268.65,
+     "costMicros": "16890000",
+     "impressions": "480"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "39",
+     "conversions": 1.19,
+     "conversionsValue": 273.8,
+     "costMicros": "79160000",
+     "impressions": "600"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "28",
+     "conversions": 0.87,
+     "conversionsValue": 200.62,
+     "costMicros": "58000000",
+     "impressions": "438"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111106",
+     "name": "Remarketing - 30 day visitors",
+     "status": "ENABLED",
+     "type": "DISPLAY_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111115"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "83",
+     "conversions": 1.32,
+     "conversionsValue": 161.01,
+     "costMicros": "36090000",
+     "impressions": "965"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "22",
+     "conversions": 3.06,
+     "conversionsValue": 261.07,
+     "costMicros": "12750000",
+     "impressions": "832"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "27",
+     "conversions": 4.07,
+     "conversionsValue": 347.89,
+     "costMicros": "16990000",
+     "impressions": "1107"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "44",
+     "conversions": 1.7,
+     "conversionsValue": 331.17,
+     "costMicros": "73140000",
+     "impressions": "512"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "32",
+     "conversions": 1.27,
+     "conversionsValue": 248.8,
+     "costMicros": "54950000",
+     "impressions": "383"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111106",
+     "name": "Remarketing - 30 day visitors",
+     "status": "ENABLED",
+     "type": "DISPLAY_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111115"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "78",
+     "conversions": 1.12,
+     "conversionsValue": 135.37,
+     "costMicros": "35420000",
+     "impressions": "994"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "35",
+     "conversions": 3.79,
+     "conversionsValue": 329.24,
+     "costMicros": "20280000",
+     "impressions": "856"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "22",
+     "conversions": 2.39,
+     "conversionsValue": 207.32,
+     "costMicros": "12770000",
+     "impressions": "539"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "32",
+     "conversions": 1.13,
+     "conversionsValue": 248.43,
+     "costMicros": "61040000",
+     "impressions": "1249"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "31",
+     "conversions": 1.16,
+     "conversionsValue": 255.64,
+     "costMicros": "62810000",
+     "impressions": "1285"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111106",
+     "name": "Remarketing - 30 day visitors",
+     "status": "ENABLED",
+     "type": "DISPLAY_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111115"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "87",
+     "conversions": 1.84,
+     "conversionsValue": 232.18,
+     "costMicros": "36760000",
+     "impressions": "2293"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "25",
+     "conversions": 2.52,
+     "conversionsValue": 223.91,
+     "costMicros": "13020000",
+     "impressions": "292"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "43",
+     "conversions": 4.55,
+     "conversionsValue": 405.34,
+     "costMicros": "23570000",
+     "impressions": "529"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   }
+  ]
+ },
+ {
+  "fieldMask": "segments.date,customer.id,campaign.id,adGroup.id,adGroup.name,adGroup.status,adGroup.type,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.conversionsValue",
+  "requestId": "demo-request-2-1",
+  "results": [
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "32",
+     "conversions": 1.01,
+     "conversionsValue": 197.41,
+     "costMicros": "59540000",
+     "impressions": "445"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "43",
+     "conversions": 1.42,
+     "conversionsValue": 279.15,
+     "costMicros": "84190000",
+     "impressions": "627"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "16",
+     "conversions": 1.71,
+     "conversionsValue": 135.62,
+     "costMicros": "8480000",
+     "impressions": "636"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "51",
+     "conversions": 5.58,
+     "conversionsValue": 441.9,
+     "costMicros": "27630000",
+     "impressions": "2073"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "43",
+     "conversions": 1.53,
+     "conversionsValue": 296.38,
+     "costMicros": "82030000",
+     "impressions": "1014"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "33",
+     "conversions": 1.22,
+     "conversionsValue": 235.71,
+     "costMicros": "65240000",
+     "impressions": "806"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "34",
+     "conversions": 4.86,
+     "conversionsValue": 400.1,
+     "costMicros": "17250000",
+     "impressions": "383"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "33",
+     "conversions": 4.75,
+     "conversionsValue": 390.82,
+     "costMicros": "16850000",
+     "impressions": "374"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "31",
+     "conversions": 1.13,
+     "conversionsValue": 237.18,
+     "costMicros": "61720000",
+     "impressions": "1108"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "32",
+     "conversions": 1.19,
+     "conversionsValue": 250.44,
+     "costMicros": "65170000",
+     "impressions": "1170"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "18",
+     "conversions": 2.57,
+     "conversionsValue": 215.94,
+     "costMicros": "10140000",
+     "impressions": "206"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "33",
+     "conversions": 4.85,
+     "conversionsValue": 408.04,
+     "costMicros": "19160000",
+     "impressions": "387"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "59",
+     "conversions": 1.38,
+     "conversionsValue": 316.75,
+     "costMicros": "109210000",
+     "impressions": "1171"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "22",
+     "conversions": 0.55,
+     "conversionsValue": 125.18,
+     "costMicros": "43160000",
+     "impressions": "462"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "39",
+     "conversions": 4.22,
+     "conversionsValue": 362.35,
+     "costMicros": "20530000",
+     "impressions": "614"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "29",
+     "conversions": 3.15,
+     "conversionsValue": 270.75,
+     "costMicros": "15340000",
+     "impressions": "458"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "26",
+     "conversions": 0.66,
+     "conversionsValue": 140.11,
+     "costMicros": "48440000",
+     "impressions": "349"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "42",
+     "conversions": 1.11,
+     "conversionsValue": 234.19,
+     "costMicros": "80970000",
+     "impressions": "582"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "29",
+     "conversions": 3.14,
+     "conversionsValue": 273.17,
+     "costMicros": "16740000",
+     "impressions": "337"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "20",
+     "conversions": 2.35,
+     "conversionsValue": 204.3,
+     "costMicros": "12520000",
+     "impressions": "251"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "39",
+     "conversions": 1.01,
+     "conversionsValue": 207.55,
+     "costMicros": "67840000",
+     "impressions": "554"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "46",
+     "conversions": 1.22,
+     "conversionsValue": 250.19,
+     "costMicros": "81780000",
+     "impressions": "667"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111101",
+     "name": "Brand - exact",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "35",
+     "conversions": 5.35,
+     "conversionsValue": 409.22,
+     "costMicros": "18650000",
+     "impressions": "561"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111102",
+     "name": "Brand - phrase",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111111"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "36",
+     "conversions": 5.71,
+     "conversionsValue": 437.52,
+     "costMicros": "19940000",
+     "impressions": "599"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111104",
+     "name": "Tents - 2 person",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "36",
+     "conversions": 1.03,
+     "conversionsValue": 208.3,
+     "costMicros": "63360000",
+     "impressions": "785"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   },
+   {
+    "adGroup": {
+     "id": "40111111105",
+     "name": "Tents - family",
+     "status": "ENABLED",
+     "type": "SEARCH_STANDARD"
+    },
+    "campaign": {
+     "id": "20111111113"
+    },
+    "customer": {
+     "id": "1234567890"
+    },
+    "metrics": {
+     "clicks": "52",
+     "conversions": 1.5,
+     "conversionsValue": 305.29,
+     "costMicros": "92860000",
+     "impressions": "1149"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   }
+  ]
+ }
+]

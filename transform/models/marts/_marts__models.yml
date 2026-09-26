@@ -1,0 +1,92 @@
+version: 2
+
+models:
+  - name: fct_campaign_performance_daily
+    description: >
+      Daily campaign performance with account currency and standard ratios. Spend is in the
+      account currency. Removed campaigns are kept so totals match the account.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [customer_id, campaign_id, date_day]
+    columns:
+      - name: date_day
+        description: Day in the account time zone.
+        data_tests: [not_null]
+      - name: customer_id
+        data_tests: [not_null]
+      - name: campaign_id
+        data_tests: [not_null]
+      - name: currency_code
+        data_tests: [not_null]
+      - name: campaign_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [ENABLED, PAUSED, REMOVED]
+      - name: cost
+        data_tests: [not_null]
+      - name: ctr
+        description: clicks / impressions.
+      - name: cpc
+        description: cost / clicks.
+      - name: cost_per_conversion
+        description: cost / conversions.
+      - name: roas
+        description: conversions_value / cost.
+
+  - name: fct_budget_pacing_daily
+    description: >
+      Month-to-date spend against month-to-date budget, per budget per day. A shared budget
+      is paced once, across all the campaigns that use it.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [customer_id, budget_id, date_day]
+    columns:
+      - name: date_day
+        data_tests: [not_null]
+      - name: customer_id
+        data_tests: [not_null]
+      - name: budget_id
+        data_tests: [not_null]
+      - name: daily_budget
+        description: Daily budget in force that day, from the latest snapshot on or before it.
+      - name: mtd_spend
+        data_tests: [not_null]
+      - name: mtd_budget
+        description: Sum of the daily budget over the days elapsed this month.
+      - name: pacing_ratio
+        description: mtd_spend / mtd_budget. 1.0 means exactly on budget.
+      - name: projected_month_spend
+        description: Month-to-date spend extrapolated at the current daily run rate.
+      - name: month_budget
+        description: The day's daily budget times the days in the month.
+      - name: pacing_status
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [UNDER, ON_TRACK, OVER, NOT_APPLICABLE]
+
+unit_tests:
+  - name: pacing_status_uses_month_to_date_totals
+    description: >
+      Pacing compares cumulative spend with cumulative budget: an overspend on day 2 is
+      averaged with an underspend on day 1, and totals restart in a new month.
+    model: fct_budget_pacing_daily
+    given:
+      - input: ref('int_google_ads__budget_daily')
+        rows:
+          - {customer_id: 1, budget_id: 7, date_day: 2026-09-01, month_start: 2026-09-01, budget_period: DAILY, daily_budget: 100, spend: 50}
+          - {customer_id: 1, budget_id: 7, date_day: 2026-09-02, month_start: 2026-09-01, budget_period: DAILY, daily_budget: 100, spend: 150}
+          - {customer_id: 1, budget_id: 7, date_day: 2026-09-03, month_start: 2026-09-01, budget_period: DAILY, daily_budget: 100, spend: 190}
+          - {customer_id: 1, budget_id: 7, date_day: 2026-10-01, month_start: 2026-10-01, budget_period: DAILY, daily_budget: 100, spend: 10}
+          - {customer_id: 1, budget_id: 8, date_day: 2026-09-01, month_start: 2026-09-01, budget_period: CUSTOM_PERIOD, spend: 20}
+    expect:
+      rows:
+        - {budget_id: 7, date_day: 2026-09-01, mtd_spend: 50, mtd_budget: 100, days_in_month: 30, pacing_ratio: 0.5, pacing_status: UNDER}
+        - {budget_id: 7, date_day: 2026-09-02, mtd_spend: 200, mtd_budget: 200, days_in_month: 30, pacing_ratio: 1.0, pacing_status: ON_TRACK}
+        - {budget_id: 7, date_day: 2026-09-03, mtd_spend: 390, mtd_budget: 300, days_in_month: 30, pacing_ratio: 1.3, pacing_status: OVER}
+        - {budget_id: 7, date_day: 2026-10-01, mtd_spend: 10, mtd_budget: 100, days_in_month: 31, pacing_ratio: 0.1, pacing_status: UNDER}
+        - {budget_id: 8, date_day: 2026-09-01, mtd_spend: 20, mtd_budget: null, days_in_month: 30, pacing_ratio: null, pacing_status: NOT_APPLICABLE}

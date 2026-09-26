@@ -1,0 +1,260 @@
+[
+ {
+  "fieldMask": "segments.date,customer.id,customer.descriptiveName,customer.currencyCode,customer.timeZone,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.conversionsValue",
+  "requestId": "demo-request-0-0",
+  "results": [
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "523",
+     "conversions": 25.91,
+     "conversionsValue": 3243.84,
+     "costMicros": "467890000",
+     "impressions": "8138"
+    },
+    "segments": {
+     "date": "2026-09-01"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "555",
+     "conversions": 30.26,
+     "conversionsValue": 4030.86,
+     "costMicros": "494770000",
+     "impressions": "12440"
+    },
+    "segments": {
+     "date": "2026-09-02"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "489",
+     "conversions": 24.08,
+     "conversionsValue": 3334.39,
+     "costMicros": "468130000",
+     "impressions": "8691"
+    },
+    "segments": {
+     "date": "2026-09-03"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "513",
+     "conversions": 21.51,
+     "conversionsValue": 2766.68,
+     "costMicros": "465510000",
+     "impressions": "11369"
+    },
+    "segments": {
+     "date": "2026-09-04"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "466",
+     "conversions": 21.45,
+     "conversionsValue": 2932.54,
+     "costMicros": "421540000",
+     "impressions": "5947"
+    },
+    "segments": {
+     "date": "2026-09-05"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "490",
+     "conversions": 22.17,
+     "conversionsValue": 3131.4,
+     "costMicros": "453410000",
+     "impressions": "8485"
+    },
+    "segments": {
+     "date": "2026-09-06"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "479",
+     "conversions": 23.55,
+     "conversionsValue": 3253.22,
+     "costMicros": "449390000",
+     "impressions": "9580"
+    },
+    "segments": {
+     "date": "2026-09-07"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "372",
+     "conversions": 21.03,
+     "conversionsValue": 3029.88,
+     "costMicros": "397510000",
+     "impressions": "6277"
+    },
+    "segments": {
+     "date": "2026-09-08"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "371",
+     "conversions": 21.95,
+     "conversionsValue": 3017.74,
+     "costMicros": "417940000",
+     "impressions": "8158"
+    },
+    "segments": {
+     "date": "2026-09-09"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "419",
+     "conversions": 20.69,
+     "conversionsValue": 2678.89,
+     "costMicros": "440180000",
+     "impressions": "7439"
+    },
+    "segments": {
+     "date": "2026-09-10"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "366",
+     "conversions": 18.87,
+     "conversionsValue": 2574.37,
+     "costMicros": "409300000",
+     "impressions": "5044"
+    },
+    "segments": {
+     "date": "2026-09-11"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "408",
+     "conversions": 22.61,
+     "conversionsValue": 3341.59,
+     "costMicros": "436030000",
+     "impressions": "7397"
+    },
+    "segments": {
+     "date": "2026-09-12"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "376",
+     "conversions": 15.45,
+     "conversionsValue": 2246.98,
+     "costMicros": "425530000",
+     "impressions": "5816"
+    },
+    "segments": {
+     "date": "2026-09-13"
+    }
+   },
+   {
+    "customer": {
+     "currencyCode": "USD",
+     "descriptiveName": "Acme Outdoor (demo)",
+     "id": "1234567890",
+     "timeZone": "America/New_York"
+    },
+    "metrics": {
+     "clicks": "457",
+     "conversions": 27.0,
+     "conversionsValue": 3422.61,
+     "costMicros": "460760000",
+     "impressions": "6817"
+    },
+    "segments": {
+     "date": "2026-09-14"
+    }
+   }
+  ]
+ }
+]
